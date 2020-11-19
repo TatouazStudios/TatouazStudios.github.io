@@ -1,0 +1,987 @@
+/* fontes */
+
+@font-face {
+    font-family: Monograms;
+    src: url(fonts/MonogramsToolbox.ttf);
+    font-family: Caligo;
+    src: url(fonts/font_Caligo1.0.ttf);
+}
+
+
+/* fontes */
+
+
+/* geral */
+
+body {
+    background-color: rgb(64, 0, 0);
+    font-family: Caligo;
+    margin: 0;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 40px;
+    text-align: justify;
+    color: rgb(255, 225, 225);
+    font-size: 25px;
+}
+
+h1 {
+    font-family: caligo;
+    color: white;
+}
+
+
+/* geral */
+
+
+/*------------------------------------------------menu de navegação------------------------------------------------------*/
+
+#cabecalho {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    color: white;
+    text-align: justify;
+}
+
+#navegacao {
+    width: 50%;
+    height: 15px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    left: 55px;
+}
+
+#navegacao ul {
+    margin: 0;
+    background-color: black;
+    list-style: none;
+}
+
+#navegacao ul li {
+    display: inline;
+}
+
+#navegacao ul li a {
+    padding: 5px 10px;
+    display: inline-block;
+    color: rgb(255, 225, 225);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#navegacao ul li a:hover {
+    color: rgb(191, 0, 0);
+}
+
+#lugarlogo {
+    background-color: black;
+    width: 100%;
+    height: 155px;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+#logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+}
+
+
+/*-----------------------------------------------menu de navegação------------------------------------------------*/
+
+
+/*-----------------------------------------------------slider-----------------------------------------------------*/
+
+#slide {
+    width: 100%;
+    height: 800px;
+    text-align: auto;
+    margin: auto;
+}
+
+.slide {
+    width: 100%;
+    height: 800px;
+    opacity: 0.9;
+}
+
+
+/*-------------------------------------------------------slider-------------------------------------------------*/
+
+
+/*-------------------------------------------------- sobrenos ---------------------------------------------------*/
+
+#sobrenos {
+    width: 60%;
+    float: left;
+    background-color: rgb(64, 0, 0);
+}
+
+hr {
+    border-radius: 50%;
+    color: rgb(124, 0, 0);
+}
+
+h2 {
+    margin-left: 30px;
+    margin-right: 40px;
+    text-align: justify;
+    color: rgb(255, 225, 225);
+    font-family: Caligo;
+    font-size: 40px;
+}
+
+
+/*------------------------------------------- sobrenos ------------------------------------*/
+
+
+/*------------------------------------------------- funcionarios ---------------------------------------------*/
+
+
+/*  
+eliminando ids funcionarios1234
+eliminando duplicidade de classes funcionario/funcionarios
+*/
+
+#funcionarios {
+    background-color: rgb(64, 0, 0);
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+#funcionarios img {
+    width: 20%;
+    height: 300px;
+    border: white 5px solid;
+    float: left;
+    margin: 0 2.5% 0 2.5%;
+    border-radius: 5px;
+}
+
+#abrirfecharf1 {
+    width: 80%;
+    background-color: rgb(0, 0, 0, .8);
+    display: none;
+    margin: 20px 10%;
+    padding: 15px;
+    float: left;
+}
+
+#fecharf1 {
+    float: right;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: -215px;
+    margin-right: -25px;
+    line-height: 30px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+    text-decoration: none;
+}
+
+#abrirfecharf2 {
+    width: 80%;
+    background-color: rgb(0, 0, 0, .8);
+    display: none;
+    padding: 15px;
+    margin: 20px 10%;
+    float: left;
+}
+
+#fecharf2 {
+    float: right;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: -255px;
+    margin-right: -25px;
+    line-height: 30px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+    text-decoration: none;
+}
+
+#abrirfecharf3 {
+    width: 80%;
+    background-color: rgb(0, 0, 0, .8);
+    display: none;
+    padding: 15px;
+    margin: 20px 10%;
+    float: left;
+}
+
+#fecharf3 {
+    float: right;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: -215px;
+    margin-right: -25px;
+    line-height: 30px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+    text-decoration: none;
+}
+
+#abrirfecharf4 {
+    width: 80%;
+    background-color: rgb(0, 0, 0, .8);
+    display: none;
+    padding: 15px;
+    margin: 20px 10%;
+    float: left;
+}
+
+#fecharf4 {
+    float: right;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: -255px;
+    margin-right: -25px;
+    line-height: 30px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+    text-decoration: none;
+}
+
+
+/*--------------------------------------------- funcionarios ------------------------------------- */
+
+
+/*--------------------------------------------------- diferenciais ----------------------------------*/
+
+#diferenciais {
+    width: 70%;
+    height: 350px;
+    text-align: justify;
+    color: white;
+    float: left;
+}
+
+#diferenciaisimg {
+    width: 25%;
+    float: left;
+}
+
+#diferenciaisimg img {
+    width: 100%;
+}
+
+
+/*---------------------------------------------- diferenciais --------------------------------------*/
+
+
+/*-------------------------------------------- tatuagens ---------------------------------------- */
+
+#tatuagens {
+    width: 100%;
+}
+
+.trabalhos {
+    width: 80%;
+    margin: auto;
+}
+
+.trabalhos>img {
+    width: 20%;
+    margin: 10px 2.5% 10px 2.5%;
+    float: left;
+    border: white 5px solid;
+    border-radius: 5px;
+}
+
+
+/*--------------------------------------------- tatuagens ------------------------------------ */
+
+
+/*------------------------------------------------localização------------------------------------------*/
+
+#localizacao {
+    width: 60%;
+    height: 250px;
+    text-align: justify;
+    color: white;
+    margin: auto;
+}
+
+#mapa {
+    border: 5px white solid;
+    width: 40%;
+    height: 250px;
+    margin: 10px 5%;
+    float: left;
+    border-radius: 5px;
+}
+
+#localizacao img {
+    float: right;
+    margin: 10px 5%;
+    height: 250px;
+}
+
+
+/*------------------------------------------- localização ------------------------------------------*/
+
+
+/* ------------------------------------------------------ rodapé -------------------------------------- */
+
+#rodape {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    color: white;
+    text-align: justify;
+    float: left;
+}
+
+
+/********************* lado esquerdo *********************/
+
+#denuncia {
+    background-color: black;
+    width: 30%;
+    height: 150px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+#denuncia img {
+    width: 220px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+
+/* modal */
+
+.modal {
+    position: fixed;
+    top: 10px;
+    right: 15;
+    bottom: 0;
+    left: 10px;
+    font-family: caligo;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#abrirModal {
+    width: 350px;
+    height: 700px;
+    margin: auto;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal>div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+}
+
+
+/* modal - formulario */
+
+#nomeformulario {
+    width: 320px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+#emailformulario {
+    width: 320px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+#telefoneformulario {
+    width: 320px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+#reclamacaoformulario {
+    margin-left: 8px;
+    width: 320px;
+    height: 200px;
+    resize: none;
+    font-size: 25px;
+}
+
+.textomodal {
+    font-size: 25px;
+    font-family: Caligo;
+}
+
+.modal>h2 {
+    font-size: 30px;
+}
+
+#botaoEnviar {
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+}
+
+
+/* modal - formulario */
+
+
+/* modal */
+
+
+/********************* lado esquerdo *********************/
+
+
+/********************* central *********************/
+
+#direitosautorais {
+    background-color: black;
+    width: 30%;
+    height: 150px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+#direitosautorais>p {
+    font-size: 17px;
+    text-align: center;
+}
+
+b {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/********************* central *********************/
+
+
+/********************* lado direito *********************/
+
+#redes_sociais {
+    background-color: black;
+    width: 30%;
+    height: 150px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+#redes_sociais>a {
+    text-decoration: none;
+}
+
+#instagram {
+    width: 20%;
+    float: left;
+    margin: 25px 2.5% 0px 2.5%;
+}
+
+#facebook {
+    width: 20%;
+    float: left;
+    margin: 25px 2.5% 0px 2.5%;
+}
+
+#twitter {
+    width: 20%;
+    float: left;
+    margin: 25px 2.5% 0px 2.5%;
+}
+
+#youtube {
+    width: 20%;
+    float: left;
+    margin: 25px 2.5% 0px 2.5%;
+}
+
+
+/********************* lado direito *********************/
+
+
+/* ------------------------------------------------------ rodapé -------------------------------------- */
+
+
+/*------------------------------------ Página SERVIÇOS ---------------------------------------------*/
+
+.servico {
+    width: 70%;
+    height: 100px;
+    color: white;
+    font-size: 25px;
+    float: left;
+}
+
+hr {
+    clear: both;
+}
+
+strong {
+    font-size: 40px;
+    color: white;
+}
+
+#tatuagem {
+    width: 25%;
+    float: left;
+}
+
+#tatuagem img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#tatuagemdehenna {
+    width: 25%;
+    float: left;
+}
+
+#tatuagemdehenna img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#bodypiercing {
+    width: 25%;
+    float: left;
+}
+
+#bodypiercing img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+/*--------------------------------------Página SERVIÇOS-------------------------------------------------------*/
+
+
+/*----------------------------------Página CONTATOS-----------------------------------------------------*/
+
+.contatos p {
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 25px;
+    float: left;
+}
+
+.contatos>p {
+    width: 70%;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+hr {
+    clear: both;
+}
+
+strong {
+    font-size: 40px;
+    color: white;
+}
+
+.imagens_contatos {
+    width: 10%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+/*--------------------------Página CONTATOS-----------------------------------------------------*/
+
+
+/*------------------------------Página SOBRE NÓS--------------------------------------------------------*/
+
+#sobrenospagina {
+    width: 70%;
+    height: 550px;
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+    float: left;
+}
+
+#sobrenosimg {
+    float: left;
+    width: 25%;
+}
+
+#sobrenosimg img {
+    margin-top: 100px;
+    width: 100%;
+}
+
+#missaovisaovalores {
+    width: 70%;
+    height: 850px;
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+    float: left;
+}
+
+#missaovisaovaloresimg {
+    width: 25%;
+    float: left;
+}
+
+#missaovisaovaloresimg img {
+    width: 50%;
+    display: block;
+}
+
+#missao {
+    margin: auto;
+    margin-top: 80px;
+}
+
+#visao {
+    margin: auto;
+    margin-top: 100px;
+}
+
+#valores {
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+#palavradaceo {
+    width: 70%;
+    height: 700px;
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+    float: left;
+}
+
+hr {
+    clear: both;
+}
+
+strong {
+    font-size: 40px;
+    color: white;
+}
+
+#imagemceo img {
+    width: 25%;
+    float: right;
+    border: 5px white solid;
+    margin-right: 20px;
+}
+
+#imagemceo h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/*--------------------------------Página SOBRE NÓS-----------------------------------------------------*/
+
+
+/*------------------------------------------PÁGINA TRABALHE CONSOSCO---------------------------------------------------*/
+
+#formulario {
+    background-color: black;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 40%;
+    height: 800px;
+    margin: auto;
+}
+
+#formulariotextarea {
+    width: 400px;
+    height: 200px;
+}
+
+
+
+
+/* MEDIA QUERY RESOLUÇÃO 1366X768 */
+
+@media screen and (max-width: 1366px) {
+
+    #imagemceo img {
+        width: 20%;
+        float: right;
+        border: 5px white solid;
+        margin-right: 20px;
+    }
+    #localizacao img {
+        float: right;
+        width: 40%;
+        margin: 10px 5%;
+        height: 250px;
+    }
+    #abrirModal {
+        width: 450px;
+        height: 600px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    /*  Geral*/
+    p {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    /* geral */
+
+
+/*--------------------------------------menu de navegação------------------------------------------------------*/
+
+
+    #cabecalho {
+        width: 100%;
+        height: 30px;
+    }
+    
+    #navegacao {
+        width: 80%;
+        height: 15px;
+        margin: auto;
+        position: relative;
+        top: 0px;
+        left: 15px;
+    }
+    
+    #navegacao ul li a {        
+        font-size: 14px;
+    }
+
+    #lugarlogo {
+        width: 100%;
+        height: 125px;
+    }
+    
+    #logo {
+        width: 125px;
+        height: 125px;
+    }
+    
+    #logo img {
+        width: 125px;
+        height: 125px;
+    }
+/*--------------------------------------menu de navegação------------------------------------------------------*/
+
+    /*------------------------------------------------- funcionarios ---------------------------------------------*/
+
+
+    #funcionarios {
+        background-color: rgb(64, 0, 0);
+        width: 80%;
+        height: 250px;
+        margin: auto;
+    }
+    
+    #funcionarios img {
+        width: 20%;
+        height: 150px;
+        border: white 5px solid;
+        float: left;
+        margin: 0 2.5% 0 2.5%;
+        border-radius: 5px;
+    }
+
+    /*------------------------------------------------- funcionarios ---------------------------------------------*/
+
+    
+
+    #mapa {
+        width: 40%;
+        height: 125px;
+    
+    }
+
+    /*------------------------------------------- localização ------------------------------------------*/
+
+
+/* ------------------------------------------------------ rodapé -------------------------------------- */
+
+
+    #rodape {
+        background-color: black;
+        width: 100%;
+        height: 90px;
+        color: white;
+        text-align: justify;
+        float: left;
+    }
+
+
+    /********************* lado esquerdo *********************/
+
+    #denuncia {
+        background-color: black;
+        width: 30%;
+        height: 90px;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        float: left;
+    }
+    
+    #denuncia img {
+        width: 150px;
+        height: 90px;
+        margin-left: 20px;
+    }
+
+    /********************* lado esquerdo *********************/
+/********************* central *********************/
+
+    #direitosautorais {
+        background-color: black;
+        width: 30%;
+        height: 90px;
+    }
+    
+    #direitosautorais>p {
+        font-size: 8px;
+        text-align: center;
+    }
+    
+    b {
+        font-size: 20px;
+        text-align: center;
+    }
+/********************* central *********************/
+
+
+/********************* lado direito *********************/
+    #redes_sociais {
+        width: 30%;
+        height: 90px;
+    }
+        
+/********************* lado direito *********************/
+
+/*------------------------fim home----------------------*/
+
+/*------------------------------------ Página SERVIÇOS ---------------------------------------------*/
+
+.servico {
+    width: 70%;
+    height: 275px;
+    color: white;
+    font-size: 17px;
+    float: left;
+}
+
+strong {
+    font-size: 30px;
+    color: white;
+}
+
+/*--------------------------------------Página SERVIÇOS-------------------------------------------------------*/
+
+/*----------------------------------Página CONTATOS-----------------------------------------------------*/
+
+.contatos p {
+    font-size: 17px;
+ 
+}
+
+.contatos>p {
+    margin-left: 150px;
+}
+
+strong {
+    font-size: 30px;
+}
+
+/*--------------------------Página CONTATOS-----------------------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------------PÁGINA TRABALHE CONSOSCO---------------------------------------------------*/
+
+#formulario {
+    background-color: black;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 80%;
+    height: 800px;
+    margin: auto;
+}
+
+#formulariotextarea {
+    width: 400px;
+    height: 200px;
+}
+
+/*------------------------------------------PÁGINA TRABALHE CONSOSCO---------------------------------------------------*/
+}

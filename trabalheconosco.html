@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icons/favicontatuoaz.ico" type="image/x-icon">
+    <title>Tatouáz Studios</title>
+</head>
+
+<body>
+    <div id="cabecalho">
+        <div id="navegacao">
+            <ul>
+                <li>
+                    <a href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="servicos.html"> Serviços</a>
+                </li>
+                <li>
+                    <a href="contatos.html">Contatos</a>
+                </li>
+                <li>
+                    <a href="sobrenos.html">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="trabalheconosco.html">Trabalhe Conosco</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="lugarlogo">
+        <div id="logo">
+            <a href="index.html">
+                <img class="logo" src="./imagens/logo.png" alt="">
+            </a>
+        </div>
+    </div>
+    <br>
+
+    <form id="formulario" action="">
+        <strong>Trabalhe Conosco</strong>
+        <br>
+        <p>
+            Nome:
+            <input type="text" name="" id="nomeformulario" placeholder="João da Silva Santos">
+            <p>
+                Telefone:
+                <input type="tel" name="" id="telefoneformulario" id="phone" n placeholder="(11)91234-1234" pattern="[(][0-9]{2}[)][0-9]{5}-[0-9]{4}">
+            </p>
+            <p>
+                E-mail:
+                <input type="email" name="" id="emailformulario" placeholder="joaosilva@email.com">
+
+            </p>
+            <p>
+                Por que devemos te contratar?
+                <br>
+                <textarea name="" id="reclamacaoformulario" cols="30" rows="10" placeholder="escreva aqui porque devemos te contratar"></textarea>
+            </p>
+            <p>
+                Insira o seu currículo
+                <br>
+                <input type="file">
+            </p>
+            <br>
+            <input type="button" value="Enviar">
+    </form>>
+
+    <footer id="rodape">
+        <div id="denuncia">
+            <a href="#abrirModal">
+                <img src="./imagens/Irregularidades.png" alt="">
+            </a>
+
+            <div id="abrirModal" class="modal">
+                <form action="">
+                    <a href="#fechar" title="Fechar" class="fechar">X</a>
+                    <h2>Denuncie Irregularidades</h2>
+                    <label class="textomodal" for="">Nome:</label>
+                    <input type="text" name="" id="nomeformulario" placeholder="João da Silva Santos">
+                    <br>
+                    <label class="textomodal" for="">Email:</label>
+                    <input type="email" name="" id="emailformulario" placeholder="joaosilva@email.com">
+                    <br>
+                    <label class="textomodal" for="">Telefone:</label>
+                    <input type="tel" name="" id="telefoneformulario" id="phone" n placeholder="(11)91234-1234" pattern="[(][0-9]{2}[)][0-9]{5}-[0-9]{4}">
+                    <br>
+                    <label class="textomodal" for="">Reclamação:</label>
+                    <textarea name="" id="reclamacaoformulario" cols="30" rows="10" placeholder="escreva aqui a sua reclamação"></textarea>
+                    <br>
+                    <input type="submit" id="botao" value="Enviar">
+                </form>
+            </div>
+        </div>
+
+
+        <div id="direitosautorais">
+            <p>
+                <b>©</b>
+                <br> Todos os Direitos Reservados - 2020
+                <br> Developed by Letícia Nascimento
+                <br> Designed by Gabriel Oliveira
+
+            </p>
+        </div>
+
+        <div id="redes_sociais">
+            <a href="https://www.instagram.com/tatouaz_studios/?hl=pt-br">
+                <img id="instagram" src="./imagens/instagram.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/TatouazStudios/">
+                <img id="facebook" src="./imagens/facebook.png" alt="">
+            </a>
+            <a href="https://twitter.com/TatouazStudios">
+                <img id="twitter" src="./imagens/twitter.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/channel/UCZ28GgAVqlJdsDqgQ3J74fQ/videos">
+                <img id="youtube" src="./imagens/youtube.png" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
